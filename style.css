@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+div {
+    cursor: pointer;
+    margin: auto;
+    font-size: 5vmin;
+    font-weight: 300;
+    transition: font-weight 250ms ease-in-out;
+}
+
+div:hover {
+    font-weight: 900;
+}
